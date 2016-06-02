@@ -20,3 +20,4 @@ Route::group(['prefix' => 'user'], function (){
     Route::post('login', 'UserController@login');
 });
 
+Route::auth();
